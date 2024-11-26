@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.Tictactoegame" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <!-- Custom text style for TextView -->
+    <style name="CustomTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/typo</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

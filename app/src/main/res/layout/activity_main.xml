@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:layout_margin="16dp">
+
+        <!-- Row 1 -->
+        <TextView
+            android:id="@+id/button_00"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_01"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_02"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_03"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <!-- Row 2 -->
+        <TextView
+            android:id="@+id/button_10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <!-- Row 3 -->
+        <TextView
+            android:id="@+id/button_20"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_21"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_22"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_23"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <!-- Row 4 -->
+        <TextView
+            android:id="@+id/button_30"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_31"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_32"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/button_33"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textSize="24sp" />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gridLayout"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/text_view_p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="@font/typoo"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="92dp"
+                android:layout_height="90dp"
+                android:src="@drawable/player" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/vs"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="240dp"
+            android:gravity="center_vertical"
+            android:text="VS"
+            android:fontFamily="@font/typoo"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/text_view_p2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/typoo"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="92dp"
+                android:layout_height="90dp"
+                android:src="@drawable/player" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/winner1"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true">
+
+
+        <ImageButton
+            android:id="@+id/button_reset"
+            android:layout_width="49dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/reset" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/button_edit"
+            android:layout_width="49dp"
+            android:layout_height="55dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/edit" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/button_profile"
+            android:layout_width="49dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="30dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/exit" />
+
+    </LinearLayout>
+
+</RelativeLayout>
