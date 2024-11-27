@@ -1,0 +1,1 @@
+The sign-in page of the app allows both regular users and admins to log in. Regular users can sign up and access their own accounts, while admins have a dedicated database and do not need to sign up. They can simply log in using their credentials
